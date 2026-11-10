@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs / generated artifacts
+Lab1/outputs/*.png
+Lab2/outputs/*.png
+Lab3/outputs/*.png
+Lab4/outputs/*.png
+Lab5/outputs/*.png
+Lab6/outputs/*.png
+Lab7/outputs/*.png
+
+# Model checkpoints (large binaries)
+models/*.pt
+models/*.pth
+!models/decision_tree.pkl
+!models/linear_regression.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unrelated workspace files (not part of AI lab submission)
+.agent
+agent-template/
+Web-Scraping/
+tests/
+start.sh
